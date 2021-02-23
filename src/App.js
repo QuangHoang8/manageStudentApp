@@ -1,8 +1,13 @@
 import { StudentList } from "./StudentList/studentList";
+
 import "./App.css";
 
 function App() {
-  return <StudentList />;
+  return (
+    <div>
+      <StudentList />
+    </div>
+  );
 }
 
 export default App;
