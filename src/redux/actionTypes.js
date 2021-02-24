@@ -1,0 +1,7 @@
+export const actionTypes = {
+  CHANGE_INPUT: "CHANGE_INPUT",
+  SEARCH: "SEARCH",
+  CHANGE_PAGE: "CHANGE_PAGE",
+  SET_PRE_PAGE: "SET_PRE_PAGE",
+  SET_NEXT_PAGE: "SET_NEXT_PAGE",
+};

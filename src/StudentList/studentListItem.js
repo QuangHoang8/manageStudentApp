@@ -5,7 +5,7 @@ export const StudentListItem = ({ student }) => {
     <li>
       <div className={classes.flex}>
         <div className={classes.user}>
-          <img src="../.././img/user.svg" alt="male"></img>
+          <img src={student.avatar} alt="male"></img>
         </div>
         <div>
           <div>{student.name}</div>
